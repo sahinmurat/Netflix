@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="Download.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name='author' content='Murat Sahin'>
+    <meta name="keywords" content="Netflix Content">
+    <meta name="description" content="Choose Your Best Movie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+       body {background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg);}
+       #div1 {background-image: url();}
+       #span1 {color: red; text-emphasis: 2; ;}
+       #span2 {color:white}
+       #h1 {font-family: "Bowlby One SC", cursive;}
+       h3 {font-family: "Sorts Mill Goudy", sans-serif;}
+       #div1 {
+           width: 13%;git stat
+           margin:auto;
+           border: 1px solid black;
+           border-collapse: collapse;
+           text-align: left;
+           font-size: 10px;
+           table-layout: fixed;
+           background: black;
+           opacity:0.8 ;
+           color: black;
+           margin-top: 4px;
+       }
+       #div1{
+           padding: 20px;
+           opacity: 0.85;
+       }
+    </style> 
+</head>
+<body>
+    <form action="result.html" name="netflix" method="">
+        <div>
+            <h1 style="text-align: center; font-family: Bowlby One SC, cursive; font:bolder; font-size: xx-large;" id="h1"><span id="span2"><b>NET</b></span><span id="span1"><b>FLIX</b></span></h1>
+            <h3 style="text-align: center; color: white;">Thank you for signing up Netflix. Tell us moe about yourself</h3>
+        </div>
+
+        <div id="div1">
+         
+            <div style="text-align: left;">
+                <label style="color: white;" style="text-align: left;" name="name" for="name">Name </label><br><br>
+                <input type="text" name='Name' id="name" placeholder="Enter your name">
+                 <br><br>
+
+                 <label style="color: white;" for="age">Age</label><br><br>
+                 <input type="age" min="18" max="100" placeholder="Age" name="Age" id="age"><br><br>
+
+                 <label style="color: white;" for="email">Email</label><br><br>
+                <input  type="email" name='Email' id="email" placeholder="Enter your email"><br><br>
+
+                <label  style="color: white; width: 375x;" for="content">Content Type</label><br><br>
+                <select  name="Content Type" id="content">
+                    <option value="Movie">Movie</option>
+                    <option value="Series">Series</option>
+                </select><br><br>
+             </div>
+             <div  style="text-align: left;">
+                 <label  style="color: white;" for="">Movie Type</label><br>
+                 <input type="checkbox" name="Movie Type" value="comedy" id="comedy">
+                 <label  style="color: white;" for="comedy">Comedy</label><br>
+                 <input type="checkbox" name="Movie Type" value="action" id="action">
+                 <label  style="color: white;" for="action">Action</label><br>
+                 <input type="checkbox" name="Movie Type" value="romance" id="romance">
+                 <label style="color: white;"  for="romance">Romance</label><br><br>
+                 
+             </div>
+             <div style="text-align: left;">
+                 <label  style="color: white;" for="">Gender</label><br>
+                 <input type="radio" name="Gender" value="Male" id="male">
+                 <label  style="color: white;" for="male">Male</label><br>
+                 <input type="radio" name="Gender" value="Female" id="female">               
+                 <label style="color: white;"  for="female">Female</label><br>
+                 <input type="radio" name="Gender" value="Other" id="other">                
+                 <label  style="color: white;" for="other">Other</label>                 
+             </div>
+             <div style="text-align: left;">
+                 <p  style="color: white;" >Feedback</p>
+                 <textarea   name="Comments" id="" cols="20" rows="5" placeholder="any comment"></textarea>
+             </div>
+             <div style="text-align: center;">
+                 <input type="submit" style="color: white; background-color: red; border-radius: 50px; text-align: center; " value="Submit">
+             </div>
+
+        
+     
+
+        </div>
+    </form>  
+</body>
+</html>
